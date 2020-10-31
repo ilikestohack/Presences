@@ -8,7 +8,6 @@ presence.on("UpdateData", async () => {
 		largeImageKey: "logo-1"
 	},
 	path = window.location.href.replace(window.location.origin, ''),
-	urlParamshere = new URLSearchParams(window.location.search);
 
 	if(path === '/'){
 		presenceData.details = "Browsing Home";
